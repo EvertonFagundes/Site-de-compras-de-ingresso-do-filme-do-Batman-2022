@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#logoBatman{
+    width: 100px;
+}
+
+.navbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartazBatmanMobile{
+    width: 100%;
+}
+
+#cartazBatmanDesk{
+    display: none;
+}
+
+#videoBatman{
+    width: 100%;
+}
+
+#textoTrailerFilme{
+    margin-left: 3%;
+    text-align: left;
+}
+
+#InformacoesTrailer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botaoComprarIngresso{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding: 3% 10%;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#botaoComprarIngresso:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+#sectionBatman{
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#sectionBatman > p{
+    position: absolute;
+    text-align: left;
+    transform: translate(40%, -150%);
+}
+
+#sectionMulherGato{
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#sectionMulherGato > p{
+    position: absolute;
+    text-align: left;
+    transform: translate(40%, -150%);
+}
+
+#sectionGordon{
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#sectionGordon > p{
+    position: absolute;
+    text-align: left;
+    transform: translate(40%, -150%);
+}
+
+#batman1{
+    width: 80%;
+    position: relative;
+}
+
+#batman1:hover{
+    transform: scale(1.1);
+    transition: ease;
+    transition-duration: 1s;
+}
+
+#mulherGato1{
+    width: 80%;
+}
+
+#mulherGato1:hover{
+    transform: scale(1.1);
+    transition: ease;
+    transition-duration: 1s;
+}
+
+#gordon1{
+    width: 80%;
+}
+
+#gordon1:hover{
+    transform: scale(1.1);
+    transition: ease;
+    transition-duration: 1s;
+}
+
+.rodape{
+    text-align: center;
+}
+
+#desenvolvidoPor{
+    margin-top: 3%;
+}
+
+#listNavbar{
+    display: none;
+}
+
+#divBotaoComprarIngresso{
+        display: flex;
+        justify-content: center;
+}
+
+#logoBatmanRodape{
+    width: 100px;
+}
+
+@media (min-width: 768px){
+    *{
+        font-size: 20px;
+    }
+
+    #logoBatman{
+        width: 150px;
+    }
+
+    #logoBatmanRodape{
+        width: 150px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    *{
+        font-size: 20px;
+    }
+
+    #cartazBatmanMobile{
+        display: none;
+    }
+
+    #cartazBatmanDesk{
+        display: block;
+        width: 100%;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        /* font-size: 1rem; */
+    }
+
+    #logoBatman{
+        margin-left: 30%;
+        /* margin-right: 20%; */
+        margin-top: 5%;
+    }
+
+    #listNavbar{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: 80%;
+        list-style: none;
+        gap: 5%;
+    }
+
+    #listNavbar a{
+        color: white;
+    }
+
+    #videoBatman{
+        width: 60%;
+        /* margin-left: 2%; */
+    }
+
+    #InformacoesTrailer{
+        width: 50%;
+    }
+
+    #divTrailerFilme{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    #textoTrailerFilme{
+        font-size: 20px;
+    }
+
+    #botaoComprarIngresso{
+        padding: 1% 4%;
+    }
+
+    .sections{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .rodape{
+        
+    }
+
+    #logoBatmanRodape{
+        margin: 0;
+        padding: 0;
+        width: 150px;
+    }
+    
+}
