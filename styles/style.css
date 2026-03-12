@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 body{
     background-color: black;
     color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #logoBatman{
@@ -17,7 +26,7 @@ body{
 .navbar{
     background-color: black;
     height: 80px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +69,8 @@ body{
     transform: scale(1.1);
     transition: ease-in-out;
     transition-duration: 0.5s;
+    background-color: #fff;
+    color: black;
 }
 
 #sectionBatman{
@@ -150,6 +161,15 @@ body{
     width: 100px;
 }
 
+.navegacaoRodape{
+    
+}
+
+#rodapeList a{
+    color: #fff;
+    list-style: none;
+}
+
 @media (min-width: 768px){
     *{
         font-size: 20px;
@@ -170,6 +190,10 @@ body{
         font-size: 20px;
     }
 
+    .navegacaoRodape{
+        display: none;
+    }
+
     #cartazBatmanMobile{
         display: none;
     }
@@ -179,28 +203,38 @@ body{
         width: 100%;
     }
 
+    header{
+        justify-content: space-around;
+        width: 100%;
+    }
+
     .navbar{
         display: flex;
-        justify-content: space-between;
-        /* font-size: 1rem; */
+        width: 90%;
     }
 
     #logoBatman{
-        margin-left: 30%;
+        /* margin-left: 30%; */
         /* margin-right: 20%; */
-        margin-top: 5%;
+        /* margin-top: 5%; */
     }
 
     #listNavbar{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        width: 80%;
+        width: 95%;
         list-style: none;
-        gap: 5%;
+        /* gap: 5%; */
+        place-items: center;
     }
-
+    
     #listNavbar a{
         color: white;
+    }
+    
+    #listNavbar a:hover{
+        color: #D21617;
+        transition: 0.5s;
     }
 
     #videoBatman{
