@@ -27,7 +27,6 @@
 
 #div-form input:focus{
     background-color: rgb(201, 199, 199);
-    /* margin-top: 500px; */
     transform: scaleX(1.2);
 }
 

@@ -1,0 +1,123 @@
+.comentarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card{
+    width: 80%;
+    background-color: rgb(42, 40, 40);
+    border-radius: 6px;
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1%;
+}
+
+#icon-user{
+    width: 40px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.icon-estrela{
+    width: 30px;
+    height: 30px;
+}
+
+.name-user{
+
+}
+
+.foto-user{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.comentario-user{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#form-comentario{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    row-gap: 5px;
+}
+
+#form-comentario input{
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+#form-comentario input:focus{
+    background-color: rgb(201, 199, 199);
+    transform: scaleX(1.1);
+
+}
+
+#form-comentario textarea{
+    border-radius: 6px;
+    transition-duration: 1s;
+
+}
+
+#form-comentario textarea:focus{
+    background-color: rgb(201, 199, 199);
+    transform: scaleX(1.1);
+
+}
+
+#form-comentario button{
+    grid-column: 1/-1;
+    width: 40%;
+    justify-self: center;
+}
+
+#subtitulo-comentarios{
+    width: 100%;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+#btn-enviar-comentario{
+    background-color: #D21617;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2% 10%;
+    transition: ease 1s;
+}
+
+#btn-enviar-comentario:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+@media (min-width: 768px){
+    .comentarios{
+        justify-content: center;
+    }
+
+    .card{
+        width: 40%;
+    }
+
+    #form-comentario{
+        column-gap: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .card{
+        width: 30%;
+    }
+
+}
