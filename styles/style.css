@@ -115,6 +115,7 @@ header{
 #batman1{
     width: 80%;
     position: relative;
+    height: 500px;
 }
 
 #batman1:hover{
@@ -125,6 +126,7 @@ header{
 
 #mulherGato1{
     width: 80%;
+    height: 500px;
 }
 
 #mulherGato1:hover{
@@ -135,6 +137,7 @@ header{
 
 #gordon1{
     width: 80%;
+    height: 500px;
 }
 
 #gordon1:hover{
@@ -188,6 +191,17 @@ header{
         width: 150px;
     }
 
+    #batman1{
+        height: 50%;
+    }
+
+    #mulherGato1{
+        height: 50%;
+    }
+
+    #gordon1{
+        height: 50%;
+    }
 }
 
 @media (min-width: 1024px){
@@ -218,12 +232,6 @@ header{
         width: 90%;
     }
 
-    #logoBatman{
-        /* margin-left: 30%; */
-        /* margin-right: 20%; */
-        /* margin-top: 5%; */
-    }
-
     #listNavbar{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -244,7 +252,6 @@ header{
 
     #videoBatman{
         width: 60%;
-        /* margin-left: 2%; */
     }
 
     #InformacoesTrailer{
@@ -271,14 +278,22 @@ header{
         grid-template-columns: repeat(3,1fr);
     }
 
-    .rodape{
-        
-    }
-
     #logoBatmanRodape{
         margin: 0;
         padding: 0;
         width: 150px;
+    }
+
+    #batman1{
+        height: 100%;
+    }
+
+    #mulherGato1{
+        height: 100%;
+    }
+
+    #gordon1{
+        height: 100%;
     }
     
 }
