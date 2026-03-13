@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('contato.css');
 
 *{
     margin: 0;
@@ -56,7 +57,7 @@ header{
 }
 
 #botaoComprarIngresso{
-    background-color: red;
+    background-color: #D21617;
     color: white;
     font-size: 1rem;
     padding: 3% 10%;
