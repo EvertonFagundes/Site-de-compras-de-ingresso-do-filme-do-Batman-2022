@@ -1,0 +1,38 @@
+#main-fotos{
+    background-color: rgb(42, 40, 40);
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main-fotos img{
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+
+}
+
+#main-fotos img:hover{
+    transform: scale(1.1);
+    transition: ease 0.8s;
+}
+
+@media (min-width: 768px){
+    #main-fotos img{
+        /* width: 45%; */
+    }
+
+}
+
+@media (min-width: 1024px){
+    #main-fotos{
+        column-gap: 2%;
+    }
+
+    #main-fotos img{
+        width: 30%;
+    }
+}
