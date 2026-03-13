@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <header>
+        <img id="logoBatman" src="assets/images/logo1-removebg-preview.png" alt="logo_batman">
+        <nav class="navbar">
+            <ul id="listNavbar">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="./fotos.html">Fotos</a>
+                </li>
+                <li><a href="./comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-contato">
+        <h1>Contato</h1>
+        <div id="div-form">
+            <form action="contato.html" method="post">
+                <label for="primeiroNome">Primeiro nome:</label>
+                <input type="text" name="primeiroNome" id="primeiroNome" placeholder="Ex: João">
+                <label for="sobreNome">Segundo nome:</label>
+                <input type="text" name="sobreNome" id="sobreNome" placeholder="Ex: De Jesus Santos">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Ex: joaodejesus@gmail.com">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Ex: (73)98815-2359">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite aqui a sua mensagem..."></textarea>
+                <button type="submit" id="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </main> 
+
+    <footer class="rodape">
+        <div>
+            <img id="logoBatmanRodape" src="assets/images/logo1-removebg-preview.png" alt="logo_batman">
+        </div>
+        <p>todos os direitos reservados©</p>
+        <p id="desenvolvidoPor">Desenvolvido por: Everton Fagundes</p>
+        <nav class="navegacaoRodape">
+            <ul id="rodapeList">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="./fotos.html">Fotos</a>
+                </li>
+                <li><a href="./comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>
+    </footer>
     
 </body>
 </html>
