@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('contato.css');
+@import url('fotos.css');
+@import url('comentarios.css');
 
 *{
     margin: 0;
@@ -142,6 +144,7 @@ header{
 }
 
 .rodape{
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -163,7 +166,8 @@ header{
 }
 
 .navegacaoRodape{
-    
+    margin-top: 5%;
+    background-color: rgb(42, 40, 40);
 }
 
 #rodapeList a{
